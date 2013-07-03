@@ -1,0 +1,14 @@
+<?php
+/**
+* @file
+* A block module that displays recent blog and forum posts.
+*/
+
+function current_posts_help($path, $arg) {
+  switch ($path) {
+    case "admin/help#current_posts":
+      return '<p>' . t("This is the first part to initiate custom module") . '</p>';
+      break;
+  }
+} 
+?>
